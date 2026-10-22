@@ -1,0 +1,61 @@
+[
+  {
+    "project": "GigaAgent",
+    "date": "2026-10-22",
+    "kind": "image",
+    "model": "gpt-image-2-vip",
+    "parameters": {
+      "model": "gpt-image-2-vip",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "pricing": {
+      "model": "gpt-image-2-vip",
+      "type": "image",
+      "conditions": {
+        "resolution": "1K",
+        "n": 1,
+        "input_image_count": 0,
+        "quality": "low"
+      },
+      "currency": "USD",
+      "unit": "request",
+      "price_basis": "request",
+      "charge_type": "per_request",
+      "maximum_unit_price": "0.0019",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "quality": "low",
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.0019"
+        }
+      ],
+      "queried_at": "2026-10-22T06:56:06.848985+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.0019",
+    "status": "completed",
+    "cost": {
+      "model": "gpt-image-2-vip",
+      "billing_status": "unavailable",
+      "actual_cost_usd": null,
+      "actual_credits": null
+    },
+    "file": "assets/gpt-image-2-vip-a137d41930.png",
+    "native_application_verified": false,
+    "validation_scope": "Shared standalone API generation and media-boundary validation, not native application acceptance",
+    "is_actual_charge": false,
+    "case_price_usd": "0.0019",
+    "price_basis": "Same-key quotation; actual settlement unavailable",
+    "width": 1024,
+    "height": 1024
+  }
+]
